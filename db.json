@@ -1,19 +1,29 @@
 {
-	"notes": [
-		{
-			"text": "the app state is in redux store",
-
-			"completed": true,
-
-			"id": 1
-		},
-
-		{
-			"text": "state changes are made with actions",
-
-			"completed": false,
-
-			"id": 2
-		}
-	]
+  "notes": [
+    {
+      "text": "the app state is in redux store",
+      "completed": true,
+      "id": 1
+    },
+    {
+      "text": "state changes are made with actions",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "content": "Hello world",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "content": "test",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "text": "test",
+      "completed": false,
+      "id": 5
+    }
+  ]
 }

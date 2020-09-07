@@ -7,4 +7,11 @@ const getAll = async () => {
     return response.data;
 }
 
-export default { getAll };
+const createNew = async (text) => {
+    // Thunkit ja Notemme ovat objekteja, hauska nimitys.
+    const object = { text, completed: false };
+    const response = await axios.post(baseUrl, object)
+    return response.data;
+}
+
+export default { getAll, createNew };
